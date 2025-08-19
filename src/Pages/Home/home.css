@@ -1,0 +1,67 @@
+
+.banner{
+    border: 2px solid black;;
+    padding: 10px;
+    color: white;
+    background-color: #06011a;
+  }
+  
+  .bg{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://media.istockphoto.com/id/1188298217/photo/interior-background-of-room-in-gym-or-fitness-center-fully-equip-of-bodybuilding-equipments.jpg?s=612x612&w=0&k=20&c=zOQTZp_WX49hFz0JN06KlKafbXEHBDhAjgcSkBRPhV4=);
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+  
+  .LR{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  input{
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  button:hover{
+    background-color:rgb(23, 30, 138);
+    color: whitesmoke;
+  }
+  
+  button{
+    color: white;
+    background-color:rgb(10, 13, 64);
+    border: 2px solid blue;
+    border-radius: 10px;
+  }
+  
+  .login{
+    font-size: 25px;
+    font-weight: bolder;
+    color: whitesmoke;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.4)
+  }
+  
+  .register{
+    font-size: 25px;
+    border: 2px solid whitesmoke;
+    font-weight: bolder;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+     border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.4)
+  }

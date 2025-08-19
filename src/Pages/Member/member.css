@@ -1,0 +1,9 @@
+.m1{
+    color: black;
+    padding: 20px;
+    width: 75%;
+}
+
+.flex-container{
+    display: flex;
+}
