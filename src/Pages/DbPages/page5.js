@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 // import './page5.css'
 
 const Page5 = () => {
     return (
         <div>
-            <div class="DbBanner">
+            <Link to='/dashboard' class="DbBanner">
                 <button class="DbBannerButton">⬅️ Back To DashBoard</button>
-            </div>
+            </Link>
 
             <span>0 Expired Members</span>
 
