@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 // import './page2.css'
 
 const Page2 = () => {
     return (
         <div>
-            <div class="DbBanner">
+            <Link to='/dashboard' class="DbBanner">
                 <button class="DbBannerButton">⬅️ Back To DashBoard</button>
-            </div>
+            </Link>
 
             <span>1 Monthly Joined Member</span>
 
