@@ -1,5 +1,6 @@
 import React from "react";
-import './page1.css'
+import { Link } from 'react-router-dom';
+import './page.css'
 
 const Page1 = () => {
     return (
@@ -8,7 +9,9 @@ const Page1 = () => {
                 <button class="DbBannerButton">Add Member ❚█══█❚ </button>
                 <button class="DbBannerButton">Membership ✚</button>
             </div>
+            <Link to='/dashboard'>
             <button class="DbButton">⬅️ Back to DashBoard</button>
+            </Link>
             <br></br>
             
             <input id="DbIn" type="text" placeholder="Search By Name or Mobile Number"></input>
