@@ -12,7 +12,7 @@ const Dashboard = () => {
 
       <div class="b2 g2">
 
-        <Link to='/member' class="g">
+        <Link to='/page1' class="g">
           <div class="g1 bt">
           <img width="49" src="https://dhskcommercecollege.edu.in/online/icon/employee.png"></img>
           <p>Joined Members</p>
@@ -61,3 +61,4 @@ const Dashboard = () => {
 }
 
 export default Dashboard
+
