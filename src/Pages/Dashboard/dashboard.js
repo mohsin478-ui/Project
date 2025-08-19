@@ -1,5 +1,6 @@
-import React from 'react'
-import './dashboard.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Dashboard.css';
 
 const Dashboard = () => {
   return (
@@ -11,47 +12,47 @@ const Dashboard = () => {
 
       <div class="b2 g2">
 
-        <div class="g">
+        <Link to='/member' class="g">
           <div class="g1 bt">
           <img width="49" src="https://dhskcommercecollege.edu.in/online/icon/employee.png"></img>
           <p>Joined Members</p>
           </div>
-        </div>
+        </Link>
 
-        <div class="g">
+        <Link to='/page2' class="g">
           <div class="g1 bt">
           <img width="49" src="https://cdn-icons-png.flaticon.com/512/12180/12180807.png"></img>
           <p>Monthly Joined</p>
           </div>
-        </div>
+        </Link>
 
-        <div class="g">
+        <Link to='/page3' class="g">
           <div class="g1 bt">
           <img width="49" src="https://cdn-icons-png.flaticon.com/512/417/417198.png"></img>
           <p>Expiring Within 3 Days</p>
           </div>
-        </div>
+        </Link>
 
-        <div class="g">
+        <Link to='/page4' class="g">
           <div class="g1 bt">
           <img width="49" src="https://cdn-icons-png.flaticon.com/512/417/417198.png"></img>
           <p>Expiring Within 4-7 Days</p>
           </div>
-        </div>
+        </Link>
 
-        <div class="g">
+        <Link to='/page5' class="g">
           <div class="g1 bt">
           <img width="49" src="https://cdn-icons-png.flaticon.com/512/3588/3588294.png"></img>
           <p>Expired</p>
           </div>
-        </div>
+        </Link>
 
-        <div class="g">
+        <Link to='/page6' class="g">
           <div class="g1 bt">
           <img width="49" src="https://cdn-icons-png.flaticon.com/512/3588/3588294.png"></img>
           <p>InActive Members</p>
           </div>
-        </div>
+        </Link>
 
       </div>
 
