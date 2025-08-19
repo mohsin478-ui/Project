@@ -1,4 +1,5 @@
 import React,{useState,uesEffect, useEffect} from 'react'
+import { Link } from 'react-router-dom';
 import './sidebar.css'
 
 const Sidebar = () => {
@@ -37,18 +38,18 @@ const Sidebar = () => {
             </div>
         </div>
         <div class="cnt">
-            <div class="flex-container c1 button">
+            <Link to='/dashboard' class="flex-container c1 button">
                 <div><img width="26" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Home_icon_grey.png"></img></div>
                 <div>Dashboard</div>
-            </div>
-            <div class="flex-container c1 button">
+            </Link>
+            <Link to='/member' class="flex-container c1 button">
                 <div><img width="26" src="https://static.vecteezy.com/system/resources/thumbnails/035/861/149/small/simple-people-icon-in-black-and-grey-colors-png.png"></img></div>
                 <div>Members</div>
-            </div>
-            <div class="flex-container c1 button">
+            </Link>
+            <Link to='/' class="flex-container c1 button">
                 <div><img width="26" src="https://cdn-icons-png.flaticon.com/512/8212/8212701.png"></img></div>
                 <div>Logout</div>
-            </div>
+            </Link>
         </div>
     </div>
   )
