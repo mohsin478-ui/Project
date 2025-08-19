@@ -42,7 +42,7 @@ const Sidebar = () => {
                 <div><img width="26" src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Home_icon_grey.png"></img></div>
                 <div>Dashboard</div>
             </Link>
-            <Link to='/member' class="flex-container c1 button">
+            <Link to='/page1' class="flex-container c1 button">
                 <div><img width="26" src="https://static.vecteezy.com/system/resources/thumbnails/035/861/149/small/simple-people-icon-in-black-and-grey-colors-png.png"></img></div>
                 <div>Members</div>
             </Link>
@@ -56,3 +56,4 @@ const Sidebar = () => {
 }
 
 export default Sidebar
+
